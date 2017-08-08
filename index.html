@@ -9,10 +9,12 @@
     <META NAME="Description" CONTENT="">
     <script>
         function popupBrowserLang() {
-            document.getElementById('app').innerHTML('navigator.language is '+navigator.language);
-            document.getElementById('app2').innerHTML('navigator.languages is '+navigator.languages);
-            document.getElementById('app3').innerHTML('ie browserlanguage is '+navigator.browswerlanguage);
-            document.getElementById('app4').innerHTML('ie userlanguage is '+navigator.userlanguage);
+           
+            alert('language:'+navigator.language+'<br>'+
+            'language:'+navigator.languages+'<br>'+
+            'ie browserlanguage:'+navigator.browswerlanguage+'<br>'+
+            'ie userlanguage:'+navigator.userlanguage+'<br>'
+            )
         }
     </script>
 </HEAD>
